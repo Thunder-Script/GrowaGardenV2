@@ -1,4 +1,5 @@
-loadstring(game:HttpGet-- Create ScreenGui
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Thunder-Script/GrowaGarden/refs/heads/main/NewScript"))()
+-- Create ScreenGui
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "KrnlRedirectGui"
 screenGui.ResetOnSpawn = false
@@ -40,5 +41,4 @@ button.Parent = frame
 button.MouseButton1Click:Connect(function()
     setclipboard("https://wearedevs.net/d/Krnl")
     button.Text = "Link copied to clipboard!"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Thunder-Script/GrowaGarden/refs/heads/main/NewScript"))()
-end)"))()
+end)
